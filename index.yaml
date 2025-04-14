@@ -1,0 +1,121 @@
+---
+course:
+  name: Data-Course-ES
+  number: MASTER
+  version: 1.0
+  chapter:
+    - name: Bienvenida y Objetivos
+      sequential:
+        - name: Introducción
+          vertical:
+            - name: Bienvenida
+              component:
+                - type: html
+                  file: bienvenida_y_objetivos/01_bienvenida.md
+            - name: Objetivos del curso
+              component:
+                - type: html
+                  file: bienvenida_y_objetivos/02_objetivos_contenido.md
+
+    - name: Módulo 1 - Fundamentos de Python
+      sequential:
+        - name: Conceptos Base
+          vertical:
+            - name: ¿Qué es Python?
+              component:
+                - type: html
+                  file: modulo1_fundamentos/01_que_es_python.md
+            - name: Variables y Tipos
+              component:
+                - type: html
+                  file: modulo1_fundamentos/02_variables_y_tipos.md
+            - name: Bucles y Condicionales
+              component:
+                - type: html
+                  file: modulo1_fundamentos/03_bucles_condicionales.md
+            - name: Estructuras de Datos
+              component:
+                - type: html
+                  file: modulo1_fundamentos/04_estructuras_datos.md
+            - name: Funciones
+              component:
+                - type: html
+                  file: modulo1_fundamentos/05_funciones.md
+        - name: Challenge
+          vertical:
+            - name: Enlace a Qualified
+              component:
+                - type: html
+                  file: modulo1_fundamentos/06_challenge_qualified.md
+
+    - name: Módulo 2 - EDA y Estadística
+      sequential:
+        - name: Exploración de Datos
+          vertical:
+            - name: Introducción a EDA
+              component:
+                - type: html
+                  file: modulo2_eda/01_intro_eda.md
+            - name: Limpieza de Datos
+              component:
+                - type: html
+                  file: modulo2_eda/02_limpieza_datos.md
+            - name: Estadística Descriptiva Práctica
+              component:
+                - type: html
+                  file: modulo2_eda/03_estadistica_descriptiva_practica.md
+            - name: Visualización Interactiva
+              component:
+                - type: html
+                  file: modulo2_eda/04_visualizacion_interactiva.md
+            - name: Conclusiones
+              component:
+                - type: html
+                  file: modulo2_eda/05_conclusiones.md
+
+    - name: Módulo Extra
+      sequential:
+        - name: Instalaciones
+          vertical:
+            - name: Anaconda
+              component:
+                - type: html
+                  file: modulo_extra/instalaciones/01_anaconda.md
+            - name: Configuración de Jupyter
+              component:
+                - type: html
+                  file: modulo_extra/instalaciones/02_jupyter_config.md
+            - name: IDEs
+              component:
+                - type: html
+                  file: modulo_extra/instalaciones/03_ides.md
+
+        - name: Proyecto Guiado
+          vertical:
+            - name: Introducción al Proyecto
+              component:
+                - type: html
+                  file: modulo_extra/proyecto_guiado/01_intro_proyecto.md
+            - name: Limpieza y EDA
+              component:
+                - type: html
+                  file: modulo_extra/proyecto_guiado/02_limpieza_eda.md
+            - name: Visualización
+              component:
+                - type: html
+                  file: modulo_extra/proyecto_guiado/03_visualizacion.md
+            - name: Entrega
+              component:
+                - type: html
+                  file: modulo_extra/proyecto_guiado/04_entrega.md
+
+        - name: Git y GitHub
+          vertical:
+            - name: Introducción a Git
+              component:
+                - type: html
+                  file: modulo_extra/git/01_intro_git_github.md
+            - name: Lab Git
+              component:
+                - type: html
+                  file: modulo_extra/git/02_lab_git.md
